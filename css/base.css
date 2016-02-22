@@ -1,0 +1,89 @@
+@font-face{
+    font-family:AnnStone;
+    src:url(fonts/AnnStone.ttf);
+}
+@font-face{
+    font-family:GutFakt;
+    src:url(fonts/GothenburgFraktur.ttf);
+}
+@font-face{
+    font-family:Alap;
+    src:url(fonts/UniAntReg.ttf);
+}
+
+
+
+body{
+	background-color: #BBDFDF;
+    position: relative;
+}
+#indexJumbo{
+	background:url(../pix/ui/ixJmbBgrnd.jpg);
+	background-repeat: no-repeat;
+    color:#CDCDCD;
+    font-family: Alap;
+}
+
+p{
+    padding:5px;
+    border-radius:3px;
+}
+td{
+    border-radius:5px;
+}
+th{
+    font-size: 1.2em;
+}
+.navbar-brand{
+	font-size:22px;
+	font-family:"Segoe UI";
+}
+.fstRow{
+	margin-top:50px;
+}
+
+.one-badge{
+    background-color: #DEDEDE;
+    border:2px #CCCCCC solid;
+    margin-top:5px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px #585858;
+}
+
+.one-badge:hover{
+    background-color: #CDCDCD;
+    border:2px #CCCCCC solid;
+    margin-top:5px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px #CA00CA;
+    font-weight: 700;
+}
+
+.badge-std-img{
+    background-color: #CCCCCC;
+    height: 128px;
+    width: 128px;
+    margin:3px;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #A9A9A9;
+}
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #CECECE;
+}
+.progress{
+    background-color: #140096;
+}
+
+
+p.ERRMsg{
+	background-color: #ffe6ff;
+	color:#99003d;
+	font-family: "Courier New";
+	font-size:18px;
+	padding: 6px;
+	border: 4px solid #FF0000;
+	box-shadow:3px 3px 5px #505050; 
+	
+}
+
