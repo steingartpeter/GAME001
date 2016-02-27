@@ -22,7 +22,7 @@
 	<nav class="navbar navbar-inverse navbar-fixed-top">
 	<div class="container-fluid">
 		<div class="navbar-header">
-			<a class="navbar-brand" href="#">SiteName</a>
+			<a class="navbar-brand" href="#">Gyűjtögető</a>
 		</div>
 		<ul class="nav navbar-nav">
 			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Főmneü<span class="caret"></a>
@@ -32,9 +32,9 @@
 					<li><a href="#">Regisztráció</a></li>
 				</ul>
 			</li>
-			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Lenyiló 1<span class="caret"></span></a>
+			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Készletek<span class="caret"></span></a>
 				<ul class="dropdown-menu">
-					<li><a href="#">Lenyiló 1.1</a></li>
+					<li><a href="/GAME001/subpages/raktar.php">Raktár</a></li>
 					<li><a href="#">Lenyiló 1.2</a></li>
 					<li><a href="#">Lenyiló 1.3</a></li>
 					<li><a href="#">Lenyiló 1.4</a></li>

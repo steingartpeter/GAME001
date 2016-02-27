@@ -23,6 +23,14 @@ body{
     color:#CDCDCD;
     font-family: Alap;
 }
+#raktarJumbo{
+	background:url(../pix/ui/jmbRktr.jpg);
+	background-repeat: no-repeat;
+    color:#CDCDCD;
+    font-family: Alap;
+}
+
+
 
 p{
     padding:5px;
@@ -75,6 +83,133 @@ th{
     background-color: #140096;
 }
 
+img.icon64{
+	width:64px;
+	height:64px;
+	border:2px #CDCDCD solid;
+	border-radius:6px;
+	box-shadow:5px 5px 8px #252525;
+	transition: ease-in-out, .8s;
+}
+img.icon64:hover{
+	transform: scale(1.3);
+}
+img.icon128{
+	width:128px;
+	height:128px;
+	border:4px #CDCDCD solid;
+	border-radius:12px;
+	box-shadow:5px 5px 8px #252525;
+	transition: ease-in-out, .8s;
+}
+img.icon128:hover{
+	transform: scale(1.3);
+}
+
+/*****************************************************************************************/
+/***********************       OVERWRITE BOOTSTRAP CSS            ************************/
+/*****************************************************************************************/
+
+ul.dropdown-menu li{
+	border-bottom:1px #FF0000 solid;
+	background-color: #CDCDCD;
+}
+ul.dropdown-menu li a:hover{
+	background-color: #ABABAB;
+	font-weight: bold;
+	font-style: italic;
+}
+.fstRow{
+	margin-top: 75px;
+}
+
+.progress-bar-striped{
+	color: #050505;
+}
+
+progress-bar-test{
+	background-color: #9F9F9F;
+}
+button.btn-tst{
+    background: -moz-linear-gradient(
+        rgba(70,90,125,1)30%,
+        rgba(255,255,255,.55)70%,
+        rgba(70,90,125,1)100%);
+    box-shadow: 3px 3px 3px #252525;
+}
+button.btn-tst:hover{
+    background: -moz-linear-gradient(
+        rgba(70,90,125,1)20%,
+        rgba(255,255,255,.55)80%,
+        rgba(70,90,125,1)100%);
+    box-shadow: 2px 2px 2px #050505;
+}
+.btn-ui-normal{
+    margin:10px;
+    width:210px;
+    height: 78px;
+    background:url(../pix/ui/btn01.png);
+    font-family: GutFakt;
+    font-size: 24px;
+}
+.btn-ui-normal:hover{
+    width:210px;
+    height: 78px;
+    background:url(../pix/ui/btn01_hvr.png);
+    font-family: GutFakt;
+    font-size: 24px;
+    font-weight: 700;
+    color:#6E2D04;
+}
+div.flyinDiv{
+    /*visibility: hidden;*/
+    z-index: 1;
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    width: 200px;
+    /*bottom: 20px;*/
+    height: 50px;
+    padding: 0;
+}
+div.flyRED{
+    background:url(../pix/ui/dmgBgrnd.png);
+    color: #050505;
+    font-family: GutFakt;
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    /*border:2px dotted #990000;
+    border-radius: 15px;*/
+    box-shadow: 3px 3px 5px #959595;
+    /*transition: all 2 ease-in-out;
+    transform:scale(2);*/
+}
+div.flyGREEN{
+    background-color: #00e600;
+    color:#004d00;
+    font-family: GutFakt;
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    border:2px dotted #990000;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px #004d00;
+}
+div.flyBLUE{
+    background-color: #80aaff;
+    color:#002b80;
+    font-family: GutFakt;
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    border:2px dotted #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px #959595;
+}
 
 p.ERRMsg{
 	background-color: #ffe6ff;
@@ -84,6 +219,36 @@ p.ERRMsg{
 	padding: 6px;
 	border: 4px solid #FF0000;
 	box-shadow:3px 3px 5px #505050; 
-	
+	border-radius:8px;
 }
+
+p.OKMsg{
+	background-color: #80ffaa;
+	color:#004d00;
+	font-family: "Courier New";
+	font-size:18px;
+	padding: 6px;
+	border: 4px solid #FF0000;
+	box-shadow:3px 3px 5px #505050; 
+	border-radius:8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

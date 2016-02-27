@@ -136,13 +136,28 @@ SPGAME_160221.Tester001 = function (id){
 SPGAME_160221.moveMsgDiv = function(msg, cls){
     //var b = $("body");
     
+	var tstDv = $("#imgDiv");
+	
     var in_msg = msg || "+ 120 HP";
     var in_cls = cls || "flyBLUE";
     var dv =  $("<div id='flyinDiv001'>" + in_msg + "</div>");
     $("body").append(dv);
     dv.addClass("flyinDiv");
     dv.addClass(in_cls);
-    dv.animate({opacity:0,top:0},1800,function(){console.log("ready");});
+    dv.animate({
+		opacity: -0.5,
+		top: -300,
+		scale:3.3
+		},
+		{step: function(now, fx) {
+		    //var data = fx.elem.id + " " + fx.prop + ": " + now;
+		    $(this).css("transform","scale("+(1+now)+")");
+		    //$( "body" ).append( "<div>" + data + "</div>" );
+		    console.log("scale: " + now);
+		  },
+		  duration:3500,
+		  complete:function(){console.log("DONE - !");}
+	});
 };
 	
 	

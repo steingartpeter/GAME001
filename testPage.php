@@ -16,6 +16,7 @@
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-rc.0/angular.min.js"></script>
 	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/site.js"></script>
+    <script type="text/javascript" src="js/ui.js"></script>
 	
 	<meta charset="UTF-8">
 
@@ -76,10 +77,10 @@
     <div class="row fstRow">
 	<div class="col-md-12">
 		<div id="barCntnr"></div>
-		<button onclick="MALO0814_NS.crtPrgrBar('barCntnr','info','50','tstBar')">Teszt</button>
-		<button onclick="MALO0814_NS.Tester001('tstBar')">Frisssítés</button>
+		<button onclick="SPGAME_160221.crtPrgrBar('barCntnr','info','50','tstBar')">Teszt</button>
+		<button onclick="SPGAME_160221.Tester001('tstBar')">Frisssítés</button>
         <button class="btn btn-tst">tesztGomb001</button><br/>
-        <button class="btn btn-ui-normal" onclick="MALO0814_NS.moveMsgDiv('- 120 HP', 'flyRED')">Tesztgomb002</button>
+        <button class="btn btn-ui-normal" onclick="SPGAME_160221.moveMsgDiv('- 120 HP', 'flyRED')">Tesztgomb002</button>
         <p>
         	<?php 
         		$conType = "norm";

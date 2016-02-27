@@ -25,7 +25,7 @@ $(function () {
     //A konkrét ajax hívásoknál, majd módosítjuk a paramétereket, ha kell.
     //</nn>
     $.ajaxSetup({
-        url: "php/PHP_AJAX.php",
+        url: "/GAME001/php/PHP_AJAX.php",
         type: "POST",
         data: {
             "cmd": "teszt"
