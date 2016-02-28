@@ -17,19 +17,27 @@ body{
 	background-color: #BBDFDF;
     position: relative;
 }
+.stdJumbo{
+	background-repeat: no-repeat;
+    font-family: Alap;
+    background-position:center;
+	background-size:100%;
+}
 #indexJumbo{
 	background:url(../pix/ui/ixJmbBgrnd.jpg);
-	background-repeat: no-repeat;
     color:#CDCDCD;
-    font-family: Alap;
 }
 #raktarJumbo{
 	background:url(../pix/ui/jmbRktr.jpg);
-	background-repeat: no-repeat;
     color:#CDCDCD;
-    font-family: Alap;
 }
-
+#plyrstatJumbo{
+	background:url(/GAME001/pix/ui/jmbPlyrStats.jpg);
+	/*background-size: 75%;*/
+	background-position:center;
+	background-size:100%;
+	color:#FFFF00;
+}
 
 
 p{
@@ -83,6 +91,12 @@ th{
     background-color: #140096;
 }
 
+img.statIcon64{
+	width:64px;
+	height:64px;
+	box-shadow:5px 5px 8px #252525;
+	transition: ease-in-out, .8s;
+}
 img.icon64{
 	width:64px;
 	height:64px;
@@ -210,6 +224,51 @@ div.flyBLUE{
     border-radius: 15px;
     box-shadow: 3px 3px 5px #959595;
 }
+div.statDiv{
+	min-width:200px;
+	min-height:100px;
+	padding:12px;
+	height:auto;
+	overflow:auto;
+	background: linear-gradient(
+        rgba(153,51,0,1)10%,
+        rgba(255,255,220,.55)50%,
+        rgba(255,255,220,.55)55%,
+        rgba(153,51,0,1)100%);
+    border:5px solid #5A5A5A;
+    border-radius:8px;
+    box-shadow: 5px 5px 10px 3px #333333;
+    color:#882200;
+}
+div.statName{
+	text-align: center;
+	font-family:Alap;
+	font-size:20px;
+}
+div.statIcon{
+	float:left;
+}
+div.statValue{
+	float:left;
+	min-width:200px;
+	min-height:100px;
+	width:75%;
+	border:1px #FF0000 solid;
+	margin-left: 12px;
+	background-color: rgba(120,120,120,.5);
+	padding-top: 20px;
+	text-align: center;
+	font-family: Alap;
+	font-size: 25px;
+	font-weight:500;
+	color:#FFFF00;
+}
+.c{
+	clear:both;	
+}
+
+
+
 
 p.ERRMsg{
 	background-color: #ffe6ff;

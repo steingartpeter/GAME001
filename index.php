@@ -35,7 +35,7 @@
 			<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Készletek<span class="caret"></span></a>
 				<ul class="dropdown-menu">
 					<li><a href="/GAME001/subpages/raktar.php">Raktár</a></li>
-					<li><a href="#">Lenyiló 1.2</a></li>
+					<li><a href="/GAME001/subpages/playerscreen.php">Játékos jellemzői</a></li>
 					<li><a href="#">Lenyiló 1.3</a></li>
 					<li><a href="#">Lenyiló 1.4</a></li>
 				</ul>
@@ -49,7 +49,7 @@
 	
 	<!-- JUMBOTRON -->
 	<div class="container">
-	<div class="jumbotron" id="indexJumbo">
+	<div class="jumbotron stdJumbo" id="indexJumbo">
 		<h1>OLDALCÍM</h1>
 		<p>Jumbotron szövege...</p>
 	</div>

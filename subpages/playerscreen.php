@@ -50,7 +50,7 @@
 	
 	<!-- JUMBOTRON -->
 	<div class="container">
-		<div class="jumbotron stdJumbo" id="raktarJumbo">
+		<div class="jumbotron stdJumbo" id="plyrstatJumbo">
 			<h1>OLDALCÍM</h1>
 			<p>Jumbotron szövege...</p>
 		</div>
@@ -58,24 +58,21 @@
 	<!-- JUMBOTRON VÉGE -->
 	<div class="container">
 		<div class="row">
-			<div class="col-md-2">
-				<img class="icon128" src="/GAME001/pix/ui/warehouseIcon.jpg">
+			<div class="row well">
+				<div class="col-md-6"><h1>Hős neve</h1></div>
+				<div class="col-md-6"><h1>Hős jellemzői</h1></div>
 			</div>
-			<div class="col-md-9">
+			<div class="col-md-6">
+				<img id="plyrPrtrt" class="plyPortrait" src="/GAME001/pix/heroPrtrs/m001.jpg">
+			</div>
+			<div class="col-md-6">
+				<div class="statDiv">
+					<div class="statName">Statnév</div>
+					<div class="statIcon"><img class="statIcon64" src="/GAME001/pix/ui/icons/eletero_icon128.jpg"></div>
+					<div class="statValue">Életerő: 150</div>
+				</div>
 			</div>
 		</div>
 	</div>
 	
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
