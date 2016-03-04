@@ -63,10 +63,30 @@
 				<div class="col-md-6"><h1>Hős jellemzői</h1></div>
 			</div>
 			<div class="col-md-6">
-				<img id="plyrPrtrt" class="plyPortrait" src="/GAME001/pix/heroPrtrs/m001.jpg">
+				<img id="plyrPrtrt" class="plyrPortrait" src="/GAME001/pix/heroPrtrs/frame7.png">
 			</div>
 			<div class="col-md-6">
-				<div class="statDiv">
+				<div class="statDiv well">
+					<div class="statName">Statnév</div>
+					<div class="statIcon"><img class="statIcon64" src="/GAME001/pix/ui/icons/eletero_icon128.jpg"></div>
+					<div class="statValue">Életerő: 150</div>
+				</div>
+				<div class="statDiv well">
+					<div class="statName">Statnév</div>
+					<div class="statIcon"><img class="statIcon64" src="/GAME001/pix/ui/icons/eletero_icon128.jpg"></div>
+					<div class="statValue">Életerő: 150</div>
+				</div>
+				<div class="statDiv well">
+					<div class="statName">Statnév</div>
+					<div class="statIcon"><img class="statIcon64" src="/GAME001/pix/ui/icons/eletero_icon128.jpg"></div>
+					<div class="statValue">Életerő: 150</div>
+				</div>
+				<div class="statDiv well">
+					<div class="statName">Statnév</div>
+					<div class="statIcon"><img class="statIcon64" src="/GAME001/pix/ui/icons/eletero_icon128.jpg"></div>
+					<div class="statValue">Életerő: 150</div>
+				</div>
+				<div class="statDiv well">
 					<div class="statName">Statnév</div>
 					<div class="statIcon"><img class="statIcon64" src="/GAME001/pix/ui/icons/eletero_icon128.jpg"></div>
 					<div class="statValue">Életerő: 150</div>

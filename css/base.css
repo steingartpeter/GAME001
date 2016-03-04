@@ -16,6 +16,7 @@
 body{
 	background-color: #BBDFDF;
     position: relative;
+    font-family: Alap;
 }
 .stdJumbo{
 	background-repeat: no-repeat;
@@ -119,6 +120,15 @@ img.icon128{
 img.icon128:hover{
 	transform: scale(1.3);
 }
+img.plyrPortrait{
+	width:400px;
+	height:600px;
+	background: url(/GAME001/pix/heroPrtrs/m001.jpg);
+    background-position:center;
+	background-size:90%;
+	background-repeat:no-repeat;
+	margin:15px;
+}
 
 /*****************************************************************************************/
 /***********************       OVERWRITE BOOTSTRAP CSS            ************************/
@@ -137,6 +147,10 @@ ul.dropdown-menu li a:hover{
 	margin-top: 75px;
 }
 
+
+
+
+/***************************** PROGRESS BARS *********************************/
 .progress-bar-striped{
 	color: #050505;
 }
@@ -144,6 +158,8 @@ ul.dropdown-menu li a:hover{
 progress-bar-test{
 	background-color: #9F9F9F;
 }
+
+/*****************************    BUTTONS   *********************************/
 button.btn-tst{
     background: -moz-linear-gradient(
         rgba(70,90,125,1)30%,
@@ -175,6 +191,8 @@ button.btn-tst:hover{
     font-weight: 700;
     color:#6E2D04;
 }
+
+/***************************** UI SPEC DIVS *********************************/
 div.flyinDiv{
     /*visibility: hidden;*/
     z-index: 1;
@@ -230,12 +248,15 @@ div.statDiv{
 	padding:12px;
 	height:auto;
 	overflow:auto;
-	background: linear-gradient(
+	background: linear-gradient(to bottom, #A5A5A5, #CDCDCD);
+	/*background: linear-gradient(
         rgba(153,51,0,1)10%,
         rgba(255,255,220,.55)50%,
         rgba(255,255,220,.55)55%,
-        rgba(153,51,0,1)100%);
-    border:5px solid #5A5A5A;
+        rgba(153,51,0,1)100%);*/
+    border:1px solid #5A5A5A;
+    border-top:1px solid #FAFAFA;
+    border-left:1px solid #FAFAFA;
     border-radius:8px;
     box-shadow: 5px 5px 10px 3px #333333;
     color:#882200;
@@ -293,6 +314,30 @@ p.OKMsg{
 }
 
 
+.well{
+    background-color: #5A5A5A;   
+    background: linear-gradient(to bottom, #CDCDCD,#5A5A5A);
+    border-bottom: 1px solid #5A5A5A;
+    border-left: 1px solid #5A5A5A;
+    border-top: 1px solid #EFEFEF;
+    border-right: 1px solid #EFEFEF;
+    border-radius: 12px;
+    box-shadow: 3px 2px 6px #050505;
+}
+.well:hover{
+    background-color: #4e4e4e;   
+    background: linear-gradient(to bottom, #CDCDCD,#4e4e4e);
+    border-bottom: 1px solid #5A5A5A;
+    border-left: 1px solid #5A5A5A;
+    border-top: 1px solid #EFEFEF;
+    border-right: 1px solid #EFEFEF;
+    border-radius: 12px;
+    box-shadow: 4px 3px 7px #050505;
+}
+.well-title{
+    font-size: 18px;
+    text-decoration: underline;
+}
 
 
 
