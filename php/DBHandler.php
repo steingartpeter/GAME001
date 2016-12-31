@@ -8,7 +8,8 @@
 	define("DBUSER", "gamer01");
 	define("DBPWRUSER", "root");
 	define("DBPWRPWD", "an003722");
-	define("DBPWD", "abc123");
+	//define("DBPWD", "abc123");
+	define("DBPWD", "Abc123456!");
 	define("DBNAME", "gamedb");
 	//<nn>
 	//Az Osztály ami magvalósítja a funkciók gyűjtőhelyét.
@@ -47,7 +48,9 @@
 					$msg .= mysqli_error($this->con);
 					die($msg);
 				}else{
-					mysqli_select_db($this->con, DBNAME);
+					if(!mysqli_select_db($this->con, DBNAME)){
+						$msg = "<p>A ".DBNAME." adatbázis kiválasztása siketelen!<p/>";
+					}
 				}
 			}else{
 				die("Az adatbázis csatlakozáshoz meg kell adni annak típusát!");

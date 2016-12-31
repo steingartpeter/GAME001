@@ -28,6 +28,13 @@ SET time_zone = "+00:00";
 -- Tábla szerkezet ehhez a táblához `tblstats`
 --
 
+CREATE DATABASE gamedb;
+
+USE gamedb;
+
+ALTER DATABASE `gamedb` DEFAULT CHARSET=utf8 COLLATE utf8_bin;
+
+
 CREATE TABLE IF NOT EXISTS `tblstats` (
 `statid` int(11) NOT NULL,
   `statname` varchar(100) COLLATE utf8_bin NOT NULL,
