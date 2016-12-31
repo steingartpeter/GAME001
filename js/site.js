@@ -136,7 +136,8 @@ SPGAME_160221.crtRndDbl = function (min, max) {
     return rndNr;  
 };
 
-
+SPGAME_160221.testFunc01 = function () {
+}
 
 
 
